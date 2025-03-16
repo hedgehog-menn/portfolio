@@ -12,15 +12,8 @@ export const DATA = {
   summary:
     "Hi! I studied [Computer Engineering at KMUTT for my bachelor's](/#education). After that, I worked in Bangkok for [5 years as a front-end developer](/#work), mostly using Angular. I got the opportunity to study for [my master's in ISA at NTHU in Taiwan](/#education), which is where I am now. I really want to change my career path and become a machine learning engineer.",
   avatarUrl: "/me.jpeg",
-  skills: [
-    "Angular",
-    "RxJS",
-    "Typescript",
-    "Python",
-  ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  skills: ["Angular", "RxJS", "Typescript", "Python"],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "kp.thananchai@gmail.com",
     tel: "+886972974152",
@@ -69,7 +62,7 @@ export const DATA = {
       badges: ["Shopify"],
       location: "Taoyuan, Taiwan",
       title: "Marketing Intern (Assistant Engineer)",
-      logoUrl: "https://cdn.adlinktech.com/webupd/en/Upload/logo-brand-guidelines/Vertical%20without%20Slogan%20FC%20(3)_24112713530484813.jpg",
+      logoUrl: "/adlink_logo.jpg",
       start: "July 2024",
       end: "Present",
       description:
@@ -81,19 +74,19 @@ export const DATA = {
       badges: ["Angular", "RxJS"],
       location: "Bangkok, Thailand",
       title: "Advanced Frontend developer",
-      logoUrl: "https://media.licdn.com/dms/image/v2/D4D0BAQHFm07UkgElyg/company-logo_100_100/company-logo_100_100/0/1719827406274/allianz_technology_logo?e=1749686400&v=beta&t=0ZVH4XlAHuqYFa5_I_oDt3Jm0L0_pljMUOKLv9L2vbc",
+      logoUrl: "/allianz_technology_logo.jpeg",
       start: "November 2020",
       end: "August 2023",
       description:
         "Lorem ipsum odor amet, consectetuer adipiscing elit. Et semper amet curae facilisis sed litora tellus. Vel tellus volutpat etiam, volutpat pretium pretium quis sociosqu eleifend. Velit hac sociosqu lobortis lectus cursus?",
     },
     {
-      company: "Morphosis",
+      company: "Morphosis Apps",
       href: "https://morphos.is",
       badges: ["Anuglar", "Ionic", "React"],
       location: "Bangkok, Thailand",
       title: "Front End Developer",
-      logoUrl: "https://media.licdn.com/dms/image/v2/C4D0BAQGVQ1W8mUeGwQ/company-logo_100_100/company-logo_100_100/0/1656494969047/morphosisapps_logo?e=1749686400&v=beta&t=UNweTsT0GDFxxhXgviHL27ONO30G1FYNWW23uc5l2PQ",
+      logoUrl: "/morphosisapps_logo.jpeg",
       start: "July 2020",
       end: "October 2020",
       description:
@@ -105,7 +98,7 @@ export const DATA = {
       href: "",
       location: "Bangkok, Thailand",
       title: "Frontend Web Developer",
-      logoUrl: "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/270625016_1481582842239037_4827699251456166383_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=k05tbSGGKH0Q7kNvgFkYmKa&_nc_oc=Adjj1eWd4llorWYA4LO7JQ-7PWbVQ7Z8bComVYSkiF9KYhoMK5OqmF1sQC7EojIFEAw&_nc_zt=23&_nc_ht=scontent-tpe1-1.xx&_nc_gid=AQp0NGgnNAtZ10THlvEgkqK&oh=00_AYF8AkwSvREPyXLrOHNhusKIEYfjzMso5mFB9-8hk1OOnw&oe=67D6E71E",
+      logoUrl: "/ct_logo.jpg",
       start: "February 2020",
       end: "June 2020",
       description:
@@ -117,7 +110,7 @@ export const DATA = {
       badges: ["Typescript", "Angular"],
       location: "Bangkok, Thailand",
       title: "Software Engineer",
-      logoUrl: "https://pbs.twimg.com/profile_images/1572139458144894977/DupEcblQ_400x400.jpg",
+      logoUrl: "/refinitiv_logo.jpg",
       start: "June 2018",
       end: "November 2019",
       description:
@@ -129,15 +122,16 @@ export const DATA = {
       school: "King Mongkut's University of Technology Thonburi",
       href: "https://www.kmutt.ac.th",
       degree: "Bachelor of Engineering (B.Eng) in Computer Engineering",
-      logoUrl: "https://www.kmutt.ac.th/wp-content/uploads/2020/09/KMUTT_CI_Semi_Logo-normal-full-265x300.png",
+      logoUrl: "kmutt_logo_full.jpg",
       start: "2014",
       end: "2018",
     },
     {
       school: "National Tsing Hua University",
       href: "https://www.nthu.edu.tw",
-      degree: "Master of Science by Institute of Information Systems and Applications (ISA)",
-      logoUrl: "https://www.nthu.edu.tw//public/images/about10/cis-1-1.jpg",
+      degree:
+        "Master of Science by Institute of Information Systems and Applications (ISA)",
+      logoUrl: "/nthu_logo.jpg",
       start: "2023",
       end: "Present",
     },
