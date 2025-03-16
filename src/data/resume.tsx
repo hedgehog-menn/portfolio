@@ -122,7 +122,7 @@ export const DATA = {
       school: "King Mongkut's University of Technology Thonburi",
       href: "https://www.kmutt.ac.th",
       degree: "Bachelor of Engineering (B.Eng) in Computer Engineering",
-      logoUrl: "kmutt_logo_full.jpg",
+      logoUrl: "kmutt_logo.jpg",
       start: "2014",
       end: "2018",
     },
