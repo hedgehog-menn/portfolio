@@ -1,26 +1,27 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon } from "lucide-react";
 import { Angular } from "@/components/ui/svgs/angular";
-import { ReactLight } from "@/components/ui/svgs/reactLight";
 import { Typescript } from "@/components/ui/svgs/typescript";
 import { Nodejs } from "@/components/ui/svgs/nodejs";
 import { Python } from "@/components/ui/svgs/python";
+import { Bootstrap } from "@/components/ui/svgs/bootstrap";
 
 export const DATA = {
   name: "Kanokphan Thananchai",
-  initials: "KT",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  initials: "Kanok",
+  url: "https://menn.is-a.dev",
+  location: "Hsinchu, Taiwan",
+  locationLink: "https://www.google.com/maps/place/hsinchu",
   description:
     "Thai frontend developer exploring Taiwan for my master's. On a journey from coding websites to machine learning!",
   summary:
-    "Hi! I studied [Computer Engineering at KMUTT for my bachelor's](/#education). After that, I worked in Bangkok for [5 years as a front-end developer](/#work), mostly using Angular. I got the opportunity to study for [my master's in ISA at NTHU in Taiwan](/#education), which is where I am now. I really want to change my career path and become a machine learning engineer.",
+    "Hi! I studied [Computer Engineering at KMUTT for my bachelor's](/#education). After that, I worked in Bangkok for [5 years as a front-end developer](/#work), mostly using Angular. I got the opportunity to study for [my master's in Institute of Information Systems and Applications (ISA) at NTHU in Taiwan](/#education), which is where I am now. I really want to change my career path and become a AI engineer.",
   avatarUrl: "/me.jpeg",
   skills: [
-    { name: "React", icon: ReactLight },
     { name: "Angular", icon: Angular },
     { name: "Typescript", icon: Typescript },
+    { name: "Bootstrap", icon: Bootstrap },
+    { name: "Node.js", icon: Nodejs },
     { name: "Python", icon: Python },
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
@@ -34,19 +35,16 @@ export const DATA = {
         icon: Icons.github,
         navbar: true,
       },
-
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/kp-thananchai",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
         url: "#",
         icon: Icons.x,
-
         navbar: false,
       },
       Youtube: {
@@ -59,7 +57,6 @@ export const DATA = {
         name: "Send Email",
         url: "mailto:hedgehog-menn@proton.me",
         icon: Icons.email,
-
         navbar: true,
       },
     },
@@ -130,7 +127,7 @@ export const DATA = {
   education: [
     {
       school: "King Mongkut's University of Technology Thonburi",
-      href: "https://www.kmutt.ac.th",
+      href: "https://www.cpe.kmutt.ac.th",
       degree: "Bachelor of Engineering (B.Eng) in Computer Engineering",
       logoUrl: "kmutt_logo.jpg",
       start: "2014",
@@ -138,7 +135,7 @@ export const DATA = {
     },
     {
       school: "National Tsing Hua University",
-      href: "https://www.nthu.edu.tw",
+      href: "https://isa.site.nthu.edu.tw",
       degree:
         "Master of Science by Institute of Information Systems and Applications (ISA)",
       logoUrl: "/nthu_logo.jpg",
