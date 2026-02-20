@@ -1,5 +1,16 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { ReactLight } from "@/components/ui/svgs/reactLight";
+import { NextjsIconDark } from "@/components/ui/svgs/nextjsIconDark";
+import { Typescript } from "@/components/ui/svgs/typescript";
+import { Nodejs } from "@/components/ui/svgs/nodejs";
+import { Python } from "@/components/ui/svgs/python";
+import { Golang } from "@/components/ui/svgs/golang";
+import { Postgresql } from "@/components/ui/svgs/postgresql";
+import { Docker } from "@/components/ui/svgs/docker";
+import { Kubernetes } from "@/components/ui/svgs/kubernetes";
+import { Java } from "@/components/ui/svgs/java";
+import { Csharp } from "@/components/ui/svgs/csharp";
 
 export const DATA = {
   name: "Kanokphan Thananchai",
@@ -12,8 +23,15 @@ export const DATA = {
   summary:
     "Hi! I studied [Computer Engineering at KMUTT for my bachelor's](/#education). After that, I worked in Bangkok for [5 years as a front-end developer](/#work), mostly using Angular. I got the opportunity to study for [my master's in ISA at NTHU in Taiwan](/#education), which is where I am now. I really want to change my career path and become a machine learning engineer.",
   avatarUrl: "/me.jpeg",
-  skills: ["Angular", "RxJS", "Typescript", "Python"],
-  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
+  skills: [
+    { name: "React", icon: ReactLight },
+    { name: "Typescript", icon: Typescript },
+    { name: "Node.js", icon: Nodejs },
+    { name: "Python", icon: Python },
+  ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+  ],
   contact: {
     email: "kp.thananchai@gmail.com",
     tel: "+886972974152",
@@ -22,9 +40,9 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/hedgehog-menn",
         icon: Icons.github,
-
         navbar: true,
       },
+
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/kp-thananchai",
