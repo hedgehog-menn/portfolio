@@ -5,9 +5,9 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-import ContactSection from "@/components/section/contact-section";
-import HackathonsSection from "@/components/section/hackathons-section";
-import ProjectsSection from "@/components/section/projects-section";
+// import ContactSection from "@/components/section/contact-section";
+// import HackathonsSection from "@/components/section/hackathons-section";
+// import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
 
@@ -130,7 +130,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="projects">
+      {/* <section id="projects">
         <BlurFade delay={BLUR_FADE_DELAY * 11}>
           <ProjectsSection />
         </BlurFade>
@@ -144,7 +144,7 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
           <ContactSection />
         </BlurFade>
-      </section>
+      </section> */}
     </main>
   );
 }
