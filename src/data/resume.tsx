@@ -143,6 +143,54 @@ export const DATA = {
       end: "Present",
     },
   ],
-  projects: [],
-  hackathons: [],
+  projects: [
+    // workaroud: keep one to prevent built failed
+    {
+      title: "Chat Collect",
+      href: "https://chatcollect.com",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatcollect.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    },
+  ],
+  hackathons: [
+    // workaroud: keep one to prevent built failed
+    {
+      title: "ETH Waterloo",
+      dates: "October 13th - 15th, 2017",
+      location: "Waterloo, Ontario",
+      description:
+        "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
+      links: [
+        {
+          title: "Organization",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/ethdocnet",
+        },
+      ],
+    },
+  ],
 } as const;
